@@ -36,7 +36,6 @@
           <About />
           <Portfolio />
           <Commission />
-          <Contact />
         </div>
         
 

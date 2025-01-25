@@ -40,9 +40,9 @@
   export let overlay = ""
   export let anim_init = ""
 
-  const darkmode_text = {text: "Dark", icon: "fa-moon"}  
+  const darkmode_text = {text: "Noir", icon: "fa-moon"}  
   const change_darkmode_text = () => {
-    darkmode_text.text = $darkmode ? "Dark" : "Light"
+    darkmode_text.text = $darkmode ? "Noir" : "Blanc"
     darkmode_text.icon = $darkmode ? "fa-moon" : "fa-sun"
   }
 

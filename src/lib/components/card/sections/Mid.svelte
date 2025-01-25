@@ -3,6 +3,7 @@
   import { nav_list, window_controls } from "$lib/etc/nav_and_links.svelte"
   import { toggle_about, toggle_portfolio, toggle_commission, toggle_contact } from "$lib/store/store.js"
   import { can_maximize, window_closed } from "$lib/store/store";
+  import { links } from "$lib/etc/nav_and_links.svelte"
 
   export let h_full = false
   export let main_window = null
@@ -54,7 +55,6 @@
         break
       case "Commission":
         $toggle_commission = true
-        main_window.disable_maximize()
         break
       case "Contact":
         $toggle_contact = true
@@ -68,7 +68,7 @@
   <!---------------------- Mid Line ---------------------->
   <Tide />
   <!---------------------- Nav Section ---------------------->
-  <div class="flex-middle gap-3 my-2">
+  <div class="flex-middle gap-4 my-7">
     {#each nav_list as nav}
       <!-- <a href={nav.link} target="_blank"> -->
         <button class="button-theme group"
@@ -78,6 +78,20 @@
         </button>
       <!-- </a> -->
     {/each}
+  </div>
+  <!-- Links list -->
+  <div class="flex-middle flex-row mt-20 gap-2 max-sm:gap-0">
+    {#each links as link}
+      <a href={link.link} target="_blank" class="group hover:bg-[--theme-white] hover:glow">
+        <div class="flex-middle group-hover:bg-[--theme-white]">
+          <i class={link.icon + " text-3xl px-2 group-hover:text-[--theme-black]"}/>  
+          <p3 class=" absolute translate-y-6 text-transparent duration-200 group-hover:text-[--theme-white]
+                      group-hover:translate-y-9
+                      max-sm:group-hover:translate-y-7">{link.name}</p3>
+        </div>
+      </a>
+    {/each}
+
   </div>
   <!--
   <div class="flex-middle min-h-10"/>-->

@@ -5,8 +5,8 @@
 
   export let intro_ended = false
 
-  let web_license = "Apache-2.0 | Website by Ravimo"
-  let art_license = "CC BY-NC | Artwork by Ravimo"
+  let web_license = "4Saken Rf. | Website by Noir | Template by Ravimo"
+  let art_license = "4Saken Rf. | Artwork by Noir"
   
 </script>
 

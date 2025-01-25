@@ -42,7 +42,7 @@
             if (textColor) { rootEle.style.setProperty('--def-circlebar-text', textColor); }
 
             // Bar graph
-            let dashValue = Math.round(2 * Math.PI * radius); 
+            let dashValue = Math.round(1 * Math.PI * radius); 
             circle.style.strokeDashoffset = dashValue; 
             circle.style.strokeDasharray = dashValue; 
 
@@ -121,7 +121,7 @@
 
     svg {
         box-sizing: border-box;
-        transform: rotate(270deg); 
+        transform: rotate(44deg); 
         position: absolute;
         width: 100%;
         height: 100%;

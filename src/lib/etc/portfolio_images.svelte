@@ -11,16 +11,16 @@
     index: 0,
     index_light: 4,
     metadata:{
-      description:  [ "Void Linux-chan",
-                      "Sync Room - Commission"],
-      resolution:   [ "5120 × 2700",
-                      "5120 × 2880"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"],
-      app:          [ "Krita",
-                      "Krita"],
-      icon:          [ "Krita",
-                      "Krita"],            
+      description:  [ "Lynette",
+                      "Kurohiko Summer Time"],
+      resolution:   [ "2160 × 2160",
+                      "2800 × 3920"],
+      date:         [ "17/07/2023",
+                      "17/07/2023"],
+      app:          [ "Clip Studio Paint",
+                      "Clip Studio Paint"],
+      icon:          [ "Clip Studio Paint",
+                      "Clip Studio Paint"],            
     }},
 
   { img: "bg-2",
@@ -31,12 +31,12 @@
     index: 1,
     index_light: 5,
     metadata:{
-      description:  [ "Sad Arch-chan",
-                      "Ayunda Risu"],
-      resolution:   [ "1754 × 1754",
-                      "4960 × 3580"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"]
+      description:  [ "Kazuhiko X Kuroi",
+                      "Arona"],
+      resolution:   [ "2500 × 4200",
+                      "1895 × 2333"],
+      date:         [ "16/10/2023",
+                      "16/10/2023"]
     }},
 
 
@@ -48,12 +48,12 @@
     index: 2,
     index_light: 6,
     metadata:{
-      description:  [ "Starting version 252.2-1-arch-1",
-                      "Hungry Shuro Yabuki"],
-      resolution:   [ "4096 × 2897",
-                      "2916 × 3936"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"]
+      description:  [ "Harith - Pyshic",
+                      "Koharu"],
+      resolution:   [ "2000 × 2000",
+                      "2165 × 2752"],
+      date:         [ "13/05/2023",
+                      "13/05/2023"]
     }},
 
   { img: "bg-4",
@@ -64,12 +64,12 @@
     index: 3,
     index_light: 7,
     metadata:{
-      description:  [ "LFS-chan - Pixiv Request",
-                      "Interstellar Gura"],
-      resolution:   [ "5120 × 2880",
-                      "5120 × 2880"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"]
+      description:  [ "Freminet",
+                      "Erika Zervas"],
+      resolution:   [ "2160 × 2160",
+                      "1676 × 1736"],
+      date:         [ "19/07/2023",
+                      "19/07/2023"]
     }},
 
   ////////////////////// OTHER IMAGES ///////////////////////////
@@ -84,16 +84,16 @@
     index: 4,
     index_light: 0,
     metadata:{
-      description:  [ "Sync Room - Commission",
-                      "Void Linux-chan"],
-      resolution:   [ "5120 × 2880",
-                      "5120 × 2700"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"],
-      app:          [ "Krita",
-                      "Krita"],
-      icon:          [ "Krita",
-                      "Krita"],            
+      description:  [ "Kurohiko Summer Time",
+                      "Lynette"],
+      resolution:   [ "2800 × 3920",
+                      "2160 × 2160"],
+      date:         [ "15/02/2023",
+                      "15/02/2023"],
+      app:          [ "Clip Studio Paint",
+                      "Clip Studio Paint",],
+      icon:          [ "Clip Studio Paint",,
+                      "Clip Studio Paint",],            
     }},
 
   { img: "bg-6",
@@ -104,10 +104,10 @@
     index: 5,
     index_light: 1,
     metadata:{
-      description:  [ "Ayunda Risu",
-                      "Sad Arch-chan"],
-      resolution:   [ "4960 × 3580",
-                      "1754 × 1754"],
+      description:  [ "Arona",
+                      "Kazuhiko X Kuroi"],
+      resolution:   [ "1895 × 2333",
+                      "2500 × 4200"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},
@@ -120,12 +120,12 @@
     index: 6,
     index_light: 2,
     metadata:{
-      description:  [ "Hungry Shuro Yabuki",
-                      "Starting version 252.2-1-arch-1"],
-      resolution:   [ "2916 × 3936",
-                      "4096 × 2897"],
-      date:         [ "10/10/2023",
-                      "10/10/2023"]
+      description:  [ "Koharu",
+                      "Harith - Pyshic"],
+      resolution:   [ "2165 × 2752",
+                      "2000 × 2000"],
+      date:         [ "11/08/2023",
+                      "11/08/2023"]
     }},
 
   { img: "bg-8",
@@ -136,10 +136,10 @@
     index: 7,
     index_light: 3,
     metadata:{
-      description:  [ "Interstellar Gura",
-                      "LFS-chan - Pixiv Request"],
-      resolution:   [ "5120 × 2880",
-                      "5120 × 2880"],
+      description:  [ "Erika Zervas",
+                      "Freminet"],
+      resolution:   [ "1676 × 1736",
+                      "2160 × 2160"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},
@@ -152,10 +152,10 @@
     index: 8,
     index_light: 8,
     metadata:{
-      description:  [ "Gentoo-chan - Pixiv Request",
-                      "Gentoo-chan - Pixiv Request"],
-      resolution:   [ "3840 × 2160",
-                      "3840 × 2160"],
+      description:  [ "Kazuhiko RiFT",
+                      "Kazuhiko RiFT"],
+      resolution:   [ "1440 × 2560",
+                      "1440 × 2560"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},
@@ -168,10 +168,10 @@
     index: 9,
     index_light: 9,
     metadata:{
-      description:  [ "Miiyumi - Commission",
-                      "Miiyumi - Commission"],
-      resolution:   [ "5120 × 2700",
-                      "5120 × 2700"],
+      description:  [ "Lyney",
+                      "Lyney"],
+      resolution:   [ "2160 × 2160",
+                      "2160 × 2160"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},
@@ -184,10 +184,10 @@
     index: 10,
     index_light: 10,
     metadata:{
-      description:  [ "Matsuri",
-                      "Matsuri"],
-      resolution:   [ "1920 × 1080",
-                      "1920 × 1080"],
+      description:  [ "Harith",
+                      "Harith"],
+      resolution:   [ "1895 × 2333",
+                      "1895 × 2333"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},
@@ -200,10 +200,10 @@
     index: 11,
     index_light: 11,
     metadata:{
-      description:  [ "Highschool Yopi",
-                      "Highschool Yopi"],
-      resolution:   [ "3508 × 4960",
-                      "3508 × 4960"],
+      description:  [ "Kohaku",
+                      "Kohaku"],
+      resolution:   [ "3920 × 2800",
+                      "3920 × 2800"],
       date:         [ "10/10/2023",
                       "10/10/2023"]
     }},

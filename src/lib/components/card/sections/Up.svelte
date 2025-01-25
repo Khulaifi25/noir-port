@@ -1,5 +1,5 @@
 <script>
-  import acchan from "$lib/assets/img/acchan.png"
+  import rift from "$lib/assets/img/rift-avatar.png"
   import QuarterCircle from "$lib/etc/circularbar.svelte"
   import LinedTitle from "$lib/etc/lined_title.svelte"
   import { links } from "$lib/etc/nav_and_links.svelte"
@@ -43,15 +43,15 @@
 
       <!-- Arch-chan Pic Border Quarter Circle -->
       <div class="absolute -scale-x-100 w-full h-full">
-        <section class="animate-[spin_3s]">
-          <QuarterCircle bind:value={$value} info="" color="var(--theme-white)" trackColor="transparent" thickness=4px/>
+        <section class="animate-[spin_5s]">
+          <QuarterCircle bind:value={$value} info="" color="var(--theme-green)" trackColor="transparent" thickness=4px/>
         </section>
       </div>
       <!-- Arch-chan Pic Border Dotted -->
-      <div class="absolute animate-[spin_30s_linear_infinite] rounded-full w-full h-full outline-dashed outline-[--theme-white] outline-offset-[-5px] outline-2"/>
+      <div class="absolute animate-[spin_30s_linear_infinite] rounded-full w-full h-full outline-dashed outline-[--theme-green] outline-offset-[-5px] outline-2"/>
     </div>
     <!-- Arch-chan Image -->
-    <img src={acchan} class="rounded-full scale-[90%]" alt="">
+    <img src={rift} class="rounded-full scale-[90%]" alt="">
   </div>
 
   <!-- Biodata -->
@@ -59,22 +59,24 @@
               max-lg:mx-10 max-lg:my-8
               max-sm:text-justify">
       <!-- First Line -->
-      <LinedTitle title="Ravimo"/>
+      <LinedTitle title="Noir"/>
       <!-- Introduction -->
       <div class="mx-[1rem]">
-        <p1>
-          Hello! I am Ravimo, an illustrator, software engineer, and Linux enthusiast.
-          Welcome to my web page!
+        <p1 class="font-bold">
+          KAZUHIKO RiFT 『和彦リフト』
         </p1>
         <div class="flex-middle gap-4 pt-5 max-sm:flex-col max-sm:items-start">
-          <i class="fa-solid fa-paintbrush text-[--theme-green] flex flow-row gap-2"><p2></p2></i>
-          <i class="fa-solid fa-code text-[--theme-purple] flex flow-row gap-2"><p2></p2></i>
-          <!--<i class="fa-solid fa-globe text-[--theme-blue] flex flow-row gap-2"><p2>Front End Dev</p2></i>-->
+          <p2>
+            Original Character (OC) designed by the Author from 4Saken Rf. 
+            <br>His name is Kazuhiko RiFT『和彦リフト』often called Rift.
+            <br>Now he is 17 years old and will have a birthday on January 30th. 
+            <br>He has the characteristics of a black cat (Noir Neko) which is very cute and adorable.
+          </p2>
         </div>
       </div>
       <!-- Second Line -->
-      <LinedTitle/>
-      <!-- Links list -->
+      <!-- <LinedTitle/> -->
+      <!-- Links list
       <div class="flex-middle flex-row gap-2 max-sm:gap-0">
 
         {#each links as link}
@@ -88,6 +90,6 @@
           </a>
         {/each}
 
-      </div>
+      </div> -->
   </div>
 </div>
