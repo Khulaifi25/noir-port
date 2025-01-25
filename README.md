@@ -1,12 +1,13 @@
-# Personal Portfolio Website Made With Svelte
+# Personal Portfolio Galley Web With Svelte
 
-[Link](https://ravimo.vercel.app/) <br />
+[Link Website](https://khulaifi.vercel.app/) <br />
 
 For deploying: <br />
-```
-git clone https://github.com/RavioliMavioli/ravimo-porto-v2.git
 
-cd ravimo-porto-v2
+```
+git clone https://github.com/Khulaifi25/noir-port.git
+
+cd noir-port
 
 npm install
 
